@@ -5,7 +5,7 @@ import javax.swing.JFrame;
 
 /**
  *
- * @author ortbra
+ * @author OrtbrA
  */
 public class Principal {
     
