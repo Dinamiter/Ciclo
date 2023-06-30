@@ -1,0 +1,24 @@
+<Shop>
+    <Name>Nueva tienda</Name>
+    <customer CustomerID="2563">
+        <ContactName>Perico el de los palotes</ContactName>
+        <Phone>971526362</Phone>
+        <Fax>971968596</Fax>
+        <FullAddress>
+            <Address>Calle del pino 56, 3 A</Address>
+            <City>Marratxi</City>
+            <Region>Baleares</Region>
+            <PostalCode>07141</PostalCode>
+            <Country>Spain</Country>
+        </FullAddress>
+        <Orders>
+            <Order OrderID="1205">
+                <OrderDate>05-12-07</OrderDate>
+                <ShippedDate>02-12-07</ShippedDate>
+                <ShipStatus>NO</ShipStatus>
+                <Cost>566.50</Cost>
+                <OrderTags>10% off</OrderTags>
+            </Order>
+        </Orders>
+    </customer>
+</Shop>

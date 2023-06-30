@@ -1,0 +1,28 @@
+﻿<Customer CustomerID="GREAL">
+        <ContactName>Howard Snyder</ContactName>
+        <Phone>(503) 555-7555</Phone>
+        <Fax>(509) 555-6221</Fax>
+        <FullAddress>
+            <Address>2732 Baker Blvd.</Address>
+            <City>Eugene</City>
+            <Region>OR</Region>
+            <PostalCode>97403</PostalCode>
+            <Country>USA</Country>
+        </FullAddress>
+        <Orders>
+            <Order OrderID="7458963">
+                <OrderDate>1997-05-06</OrderDate>
+                <ShippedDate>1997-05-09</ShippedDate>
+                <ShipStatus>Done</ShipStatus>
+                <Cost>8562</Cost>
+                <OrderTags>fastshipping 15discount freeshipping</OrderTags>
+            </Order>
+            <Order OrderID="7485236">
+                <OrderDate>1998-05-10</OrderDate>
+                <ShippedDate>1998-05-11</ShippedDate>
+                <ShipStatus>Done</ShipStatus>
+                <Cost>1256</Cost>
+                <OrderTags>fastshipping 20discount</OrderTags>
+            </Order>
+        </Orders>
+</Customer>

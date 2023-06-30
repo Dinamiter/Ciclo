@@ -1,0 +1,28 @@
+<Customer CustomerID="5555">
+    <ContactName>Francisco Sanchez</ContactName>
+    <Phone>971525252</Phone>
+    <Fax>971636363</Fax>
+    <FullAddress>
+        <Address>Calle del Cerro 89</Address>
+        <City>Toledo</City>
+        <Region>CCMM</Region>
+        <PostalCode>45215</PostalCode>
+        <Country>Spain</Country>
+    </FullAddress>
+    <Orders>
+        <Order OrderID="1023">
+            <OrderDate>10-05-99</OrderDate>
+            <ShippedDate>25-05-99</ShippedDate>
+            <ShipStatus>OK</ShipStatus>
+            <Cost>786.50</Cost>
+            <OrderTags>None</OrderTags>
+        </Order>
+        <Order OrderID="1256">
+            <OrderDate>10-05-02</OrderDate>
+            <ShippedDate>23-05-02</ShippedDate>
+            <ShipStatus>none</ShipStatus>
+            <Cost>5632.2</Cost>
+            <OrderTags>15% free2</OrderTags>
+        </Order>
+    </Orders>
+</Customer>
