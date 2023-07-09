@@ -22,14 +22,9 @@ public class JDialogModificar extends javax.swing.JDialog {
         this.getDefaultCloseOperation();
         this.setVisible(true);
         this.setLocationRelativeTo(null); 
-        
-        
-        
-        
-        
+   
     }
 
-   
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -130,13 +125,17 @@ public class JDialogModificar extends javax.swing.JDialog {
         campoModApellido.setText(apellido);
         campoModNombre.setText(nombre);
         campoModCurso.setText(Integer.toString(curso));
-
+        
         
     }//GEN-LAST:event_botonBuscarAlumnoActionPerformed
 
     private void botonGrabarModificacionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonGrabarModificacionActionPerformed
         
         
+        clase=campoModClase.getText();
+        apellido=campoModApellido.getText();
+        nombre=campoModNombre.getText();
+        curso=Integer.valueOf(campoModCurso.getText());
         
         metodo.modificarAlumno(id, nombre, apellido, curso, clase);
         

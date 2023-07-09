@@ -152,13 +152,25 @@ public class Metodos implements IMetodos {
     @Override
     public void modificarAlumno(int id, String nombre, String apellido, int curso, String clase) {
 
+        
+        System.out.println(id+" "+nombre+" "+apellido+" "+curso+" "+clase);
+        
+        
         String cadId=Integer.toString(id) ;
         String cadCurso=Integer.toString(curso) ;
-        
-        String sentenciaSql = "UPDATE alumnos SET nombre= '"+nombre+"',apellido='"+apellido+"',curso='"+cadCurso+"',clase='"+clase+"' WHERE id= '" + cadId + "' ";
+   
+        String sentenciaSql = "UPDATE alumnos SET nombre=?,apellido=?,curso=?,clase=? WHERE id=?";
 
         try ( PreparedStatement pst = conexion().prepareStatement(sentenciaSql)) {
 
+            
+            pst.setString(1,nombre);
+            pst.setString(2,apellido);
+            pst.setString(3,cadCurso);
+            pst.setString(4,clase);
+            pst.setString(5,cadId);
+           
+      
             int filas=pst.executeUpdate();
             System.out.println(filas+" cambiadas en el asiento ************************");
 
